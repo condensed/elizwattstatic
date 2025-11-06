@@ -20,6 +20,27 @@ http://bourbon.io/
 /* ::: HIDING CONTENT ::::::::::::::::::::::::::::::::::::::::: */
 /* ::: BOURBON NEAT GRID HACKS ::::::::::::::::::::::::::::::::::::::::: */
 @import url("//hello.myfonts.net/count/311fec");
+
+.sharedaddy {
+    display: none;
+}
+
+.wpd-form-wrap {
+    display: none;
+}
+
+.wpd-comment-info-bar {
+    display: none;
+}
+
+.wpd-comment-footer {
+    display: none !important;
+}
+
+.wpd-thread-filter {
+    display: none !important;
+}
+
 html {
   background: #FFF;
   color: #333; }
